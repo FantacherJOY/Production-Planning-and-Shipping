@@ -2,6 +2,14 @@
 <p align="justify"> 
 Vision is a large company that produces video-capturing devices. Four different types of cameras are made in the three plants in the system. While each plant can produce any of the four camera types, each has its own constraints and unit costs. These constraints cover labor, machining, and material, and the specific values are given. Different production processes are used; thus, the products use different amounts of resources in different plants. The material requirements for each product are given in the last column of Tables 1-3. A total of 3,500 pounds of material are available for the entire system during the planning period. Transport has three major customers (RAYco, HONco, and MMco) for its products. The maximum sales for each customer-product pair are given in Table 4. Product sales prices are given in Table 5, and the shipping costs from each plant to each customer are detailed in Table 6. Table 7 contains the production costs for each product-plant pair. All shipping from plants 1 and 2 that goes to RAYco or HONco must go through a special inspection. These units are sent to a central site, inspected, and then sent to their destination. The capacity of its special inspections site is 1,500 pieces. </p>
 
+■ If you could get more material, how much would you like? How would you use it? What would you be willing to pay?
+
+■ If you could get more inspection capacity, how much would you like? How would you use it? What would you be willing to pay?
+
+■At what plant(s) would you like to add extra machine hours How much would you be willing to pay per hour? How many extra hours would you like? 
+
+■ Marketing is trying to get RAYco to consider a 50% increase in its demand. Can we handle this with the current system or do we need more resources? How much more money can we make if we take on the additional demand?
+
 # Table 1: Product-Resource constraints: Plant 1
 | Products | Labor(Hours/Unit) | Machine(Hours/Uni) | Material(Lb/Unit) |
 | :--------------: |:-----:| :-----:|:-----:|
