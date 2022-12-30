@@ -10,7 +10,7 @@ Vision is a large company that produces video-capturing devices. Four different 
 
 [4] Marketing is trying to get RAYco to consider a 50% increase in its demand. Can we handle this with the current system or do we need more resources? How much more money can we make if we take on the additional demand?
 
-# Table 1: Product-Resource constraints: Plant 1
+### Table 1: Product-Resource constraints: Plant 1
 | Product | Labor(Hours/Unit) | Machine(Hours/Uni) | Material(Lb/Unit) |
 | :--------------: |:-----:| :-----:|:-----:|
 | Small |	3	| 8	| 1.0 |
@@ -19,7 +19,7 @@ Vision is a large company that produces video-capturing devices. Four different 
 | Precision |	4 |	9 |	1.3 |
 | Total Available |	6,000 |	10,000 |	------ |
 
-# Table 2: Product-Resource constraints: Plant 2
+### Table 2: Product-Resource constraints: Plant 2
 | Product | Labor(Hours/Unit) | Machine(Hours/Uni) | Material(Lb/Unit) |
 | :--------------: |:-----:| :-----:|:-----:|
 | Small |	3.5	| 7	| 1.1 |
