@@ -11,4 +11,21 @@ Vision is a large company that produces video-capturing devices. Four different 
 | Precision |	4 |	9 |	1.3 |
 | Total Available |	6,000 |	10,000 |	------ |
 
+# Table 2: Product-Resource constraints: Plant 2
+| Products	Labor  | (Hours/Unit)	Machine  | (Hours/Uni)	Material | (Lb/Unit) |
+| :--------------: |:-----:| :-----:|:-----:|
+| Small |	3.5	| 7	| 1.1 |
+| Medium	| 3.5 |	7 |	1.0 |
+| Large |	4.5 |	8 |	1.1 |
+| Precision |	4.5 |	9 |	1.4 |
+| Total Available |	5,000 |	12,500 |	------ |
+
+# Table 3: Product-Resource constraints: Plant 3
+| Products	Labor  | (Hours/Unit)	Machine  | (Hours/Uni)	Material | (Lb/Unit) |
+| :--------------: |:-----:| :-----:|:-----:|
+| Small |	3	| 7.5	| 1.1 |
+| Medium	| 3.5 |	7.5 |	1.1 |
+| Large |	4 |	8.5 |	1.3 |
+| Precision |	4.5 |	8.5 |	1.3 |
+| Total Available |	3,000 |	6,000 |	------ |
 
