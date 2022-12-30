@@ -6,7 +6,7 @@ Vision is a large company that produces video-capturing devices. Four different 
 
 ■ If you could get more inspection capacity, how much would you like? How would you use it? What would you be willing to pay?
 
-■At what plant(s) would you like to add extra machine hours How much would you be willing to pay per hour? How many extra hours would you like? 
+■ At what plant(s) would you like to add extra machine hours How much would you be willing to pay per hour? How many extra hours would you like? 
 
 ■ Marketing is trying to get RAYco to consider a 50% increase in its demand. Can we handle this with the current system or do we need more resources? How much more money can we make if we take on the additional demand?
 
