@@ -3,7 +3,7 @@
 Vision is a large company that produces video-capturing devices. Four different types of cameras are made in the three plants in the system. While each plant can produce any of the four camera types, each has its own constraints and unit costs. These constraints cover labor, machining, and material, and the specific values are given. Different production processes are used; thus, the products use different amounts of resources in different plants. The material requirements for each product are given in the last column of Tables 1-3. A total of 3,500 pounds of material are available for the entire system during the planning period. Transport has three major customers (RAYco, HONco, and MMco) for its products. The maximum sales for each customer-product pair are given in Table 4. Product sales prices are given in Table 5, and the shipping costs from each plant to each customer are detailed in Table 6. Table 7 contains the production costs for each product-plant pair. All shipping from plants 1 and 2 that goes to RAYco or HONco must go through a special inspection. These units are sent to a central site, inspected, and then sent to their destination. The capacity of its special inspections site is 1,500 pieces.
 
 # Table 1: Product-Resource constraints: Plant 1
-| Products	Labor  | (Hours/Unit)	Machine  | (Hours/Uni)	Material | (Lb/Unit) |
+| Products | Labor(Hours/Unit) | Machine(Hours/Uni) | Material(Lb/Unit) |
 | :--------------: |:-----:| :-----:|:-----:|
 | Small |	3	| 8	| 1.0 |
 | Medium	| 3 |	8.5 |	1.1 |
@@ -12,7 +12,7 @@ Vision is a large company that produces video-capturing devices. Four different 
 | Total Available |	6,000 |	10,000 |	------ |
 
 # Table 2: Product-Resource constraints: Plant 2
-| Products	Labor  | (Hours/Unit)	Machine  | (Hours/Uni)	Material | (Lb/Unit) |
+| Products | Labor(Hours/Unit) | Machine(Hours/Uni) | Material(Lb/Unit) |
 | :--------------: |:-----:| :-----:|:-----:|
 | Small |	3.5	| 7	| 1.1 |
 | Medium	| 3.5 |	7 |	1.0 |
@@ -21,11 +21,29 @@ Vision is a large company that produces video-capturing devices. Four different 
 | Total Available |	5,000 |	12,500 |	------ |
 
 # Table 3: Product-Resource constraints: Plant 3
-| Products	Labor  | (Hours/Unit)	Machine  | (Hours/Uni)	Material | (Lb/Unit) |
+| Products | Labor(Hours/Unit) | Machine(Hours/Uni) | Material(Lb/Unit) |
 | :--------------: |:-----:| :-----:|:-----:|
 | Small |	3	| 7.5	| 1.1 |
 | Medium	| 3.5 |	7.5 |	1.1 |
 | Large |	4 |	8.5 |	1.3 |
 | Precision |	4.5 |	8.5 |	1.3 |
 | Total Available |	3,000 |	6,000 |	------ |
+
+# Table 4: Maximum Product Sales ($) per Unit
+| Products | RAYco | HONco | MMco |
+| :--------------: |:-----:| :-----:|:-----:|
+| Small |	200	| 400	| 200 |
+| Medium |	300	| 300	| 400 |
+| Large |	500	| 200	| 300 |
+| Precision |	200	| 400	| 300 |
+
+# Table 5: Shipping Costs ($) per Unit
+| Products | RAYco | HONco | MMco |
+| :--------------: |:-----:| :-----:|:-----:|
+| Small |	17	| 16	| 16 |
+| Medium |	18	| 18	| 17 |
+| Large |	22	| 22	| 23 |
+| Precision |	29	| 26	| 27 |
+
+
 
