@@ -28,7 +28,7 @@ Vision is a large company that produces video-capturing devices. Four different 
 | Precision |	4.5 |	9 |	1.4 |
 | Total Available |	5,000 |	12,500 |	------ |
 
-# Table 3: Product-Resource constraints: Plant 3
+### Table 3: Product-Resource constraints: Plant 3
 | Product | Labor(Hours/Unit) | Machine(Hours/Uni) | Material(Lb/Unit) |
 | :--------------: |:-----:| :-----:|:-----:|
 | Small |	3	| 7.5	| 1.1 |
@@ -37,7 +37,7 @@ Vision is a large company that produces video-capturing devices. Four different 
 | Precision |	4.5 |	8.5 |	1.3 |
 | Total Available |	3,000 |	6,000 |	------ |
 
-# Table 4: Maximum Product Sales ($) per Unit
+### Table 4: Maximum Product Sales ($) per Unit
 | Product | RAYco | HONco | MMco |
 | :--------------: |:-----:| :-----:|:-----:|
 | Small |	200	| 400	| 200 |
@@ -45,7 +45,7 @@ Vision is a large company that produces video-capturing devices. Four different 
 | Large |	500	| 200	| 300 |
 | Precision |	200	| 400	| 300 |
 
-# Table 5: Shipping Costs ($) per Unit
+### Table 5: Shipping Costs ($) per Unit
 | Product | RAYco | HONco | MMco |
 | :--------------: |:-----:| :-----:|:-----:|
 | Small |	17	| 16	| 16 |
@@ -53,14 +53,14 @@ Vision is a large company that produces video-capturing devices. Four different 
 | Large |	22	| 22	| 23 |
 | Precision |	29	| 26	| 27 |
 
-# Table 6: Product Sales Price ($) per Unit
+### Table 6: Product Sales Price ($) per Unit
 | Plant | RAYco | HONco | MMco |
 | :--------------: |:-----:| :-----:|:-----:|
 | 1 |	1.0	| 1.6	| 1.1 |
 | 2 |	1.2	| 1.5	| 1.0 |
 | 3 |	1.4	| 1.5	| 1.3 |
 
-# Table 7: Production costs ($) per unit
+### Table 7: Production costs ($) per unit
 | Product | 1 | 2 | 3 |
 | :--------------: |:-----:| :-----:|:-----:|
 | Small |	14	| 13	| 14 |
