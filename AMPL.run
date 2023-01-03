@@ -1,0 +1,40 @@
+reset;
+#model Carrotco_int.mod;
+model Case_4.mod;
+data Case_4.dat;
+options solver cplex;
+solve;
+
+### Displaying the  results on the screen
+display Total_Revenue;
+display ProduceP1 > Case4.out;
+display ProduceP2 > Case4.out;
+display ProduceP3 > Case4.out;
+display sum{i in PROD, j in CUST}LaborHour[i,1]*ProduceP1[i,j] > Case4.out;
+display sum{i in PROD}
+		((ProduceP1[i,'H']+ProduceP1[i,'R']+ProduceP1[i,'M'])*Material[i,1]+
+		(ProduceP2[i,'H']+ProduceP2[i,'R']+ProduceP2[i,'M'])*Material[i,2]+
+		(ProduceP3[i,'H']+ProduceP3[i,'R']+ProduceP3[i,'M'])*Material[i,3]) > Case4.out;
+display :sum{i in PROD, j in CUST: j != 'M'} 
+	(ProduceP1[i,j]+ProduceP2[i,j]) > Case4.out;
+
+
+/*
+display Labor_Requi_1;
+display Labor_Requi_3;
+display Labor_Requi_2;
+display Inspection;
+
+display {i in PROD, j in CUST}:SalePrice[i,j]*(ProduceP1[i,j]+ProduceP2[i,j]+ProduceP3[i,j]);*/
+/*
+display Max_Sales;
+
+display Inspection;
+
+display Material_Req;
+
+display Labor_Req;
+
+display {p in PLANT}:AvailLaborHour[p];
+
+*/

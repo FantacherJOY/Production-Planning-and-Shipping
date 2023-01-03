@@ -1,0 +1,55 @@
+set CUST := R H M;
+set PROD := S M L P;
+set PLANT := 1 2 3;
+
+param AvailMaterial:= 3500;
+param Capacity:= 1500;
+param AvailLaborHour:= 1 6000 2 5000 3 3000;
+param AvailMachineHour:= 1 10000 2 12500 3 6000;
+param MaxProdSales:
+	        R   H   M:=
+	     S 200 400 200
+	     M 300 300 400
+	     L 500 200 300
+         P 200 400 300;
+
+param SalePrice:
+	        R  H  M:=
+	     S 17 16 16
+	     M 18 18 17
+	     L 22 22 23
+         P 29 26 27;
+
+param ProdCost:
+	        1  2  3:=
+     	 S 14 13 14
+	     M 16 17 15
+	     L 18 20 19
+         P 26 24 23;
+
+param ShipCost:
+	        1   2   3:=
+	     R 1.0 1.2 1.4
+	     H 1.6 1.5 1.5
+	     M 1.1 1.0 1.3;
+	     
+param LaborHour:
+	        1    2    3:=
+	     S  3   3.5   3
+	     M  3   3.5   3.5
+	     L  4   4.5   4
+         P  4   4.5   4.5;
+
+param MachineHour:
+	        1    2    3:=
+	     S  8    7    7.5 
+	     M  8.5  7    7.5
+	     L  9    8    8.5
+         P  9    9    8.5;
+
+param Material:
+	         1    2    3:=
+	     S  1.0  1.1  1.1
+	     M  1.1  1.0  1.1
+     	 L  1.2  1.1  1.3
+         P  1.3  1.4  1.3;
